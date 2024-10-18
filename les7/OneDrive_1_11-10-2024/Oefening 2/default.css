@@ -1,0 +1,24 @@
+body{
+    background-color: grey;
+}
+div.wit{
+    height: 300px;
+    width: 50%;
+    padding: 5px;
+    background-color: white;
+}
+div.rood{
+    height: 200px;
+    width: 75%;
+    padding: 5px;
+    background-color: red;
+}
+div.geel{
+    height: 100px;
+    width: 50%;
+    background-color: yellow;
+}
+p{
+    margin: 0%;
+    text-align: center;
+}

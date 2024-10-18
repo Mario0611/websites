@@ -1,0 +1,65 @@
+* {
+  /* Alle elementen krijg 0 margin */
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* Responsive maken
+@media screen and (max-width: 800px) {
+  .flexbox {
+    /* Stack flexbox in een kolom ipv in een rij op screens die kleiner zijn dan 800px */
+    /*flex-direction: column;
+  }
+} */
+
+
+body{
+  height: 100vh;
+  display: grid;
+  grid-template-areas: "header header header" 
+                       "aside main main" 
+                       "footer footer footer";
+  grid-template-columns: 200px auto;
+  grid-template-rows: 110px auto 30px;
+  gap: 5px;
+  margin: 5px;
+}
+header{
+  grid-area: header;
+  background-color: #4b9bf7;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+aside{
+  grid-area: aside;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main{
+  grid-area: main;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  grid-area: footer;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
