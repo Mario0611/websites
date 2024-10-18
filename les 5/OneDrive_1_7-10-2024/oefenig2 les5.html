@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aanmelden</title>
+    <style>
+        input[type=text], intput[type=password], input[type=email], input[type=submit]{
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            width: 50%;
+            border-radius: 5px;
+            box-shadow: 5px 5px lightgray;
+            font-size: 20px;
+        }
+        input[type=text]:focus, input[type=password]:focus, input[type=email]:focus{
+            border: 3px solid black;
+            box-shadow: 1px lightgray;
+        }
+        body{
+            margin: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <font-family>
+        <form method="post" action="https://tm-statweb.be/forms.php">
+            <div>
+                <label for="Voornaam">Voornaam: </label>
+                <input type="text" id="Voornaam" placeholder="Voornaam" />
+            </div>
+            <div>
+                <label for="Familienaam">Familienaam: </label>
+                <input type="text" id="Familienaam" placeholder="Familienaam" />
+            </div>
+            <div>
+                <label for="Gebruikersnaam">Gebruikersnaam: </label>
+                <input type="text" id="Gebruikersnaam" placeholder="Gebruikersnaam" />
+            </div>
+            <div>
+                <label for="bijnaam">bijnaam: </label>
+                <input type="text" id="bijnaam" placeholder="bijnaam" />
+            </div>
+            <div>
+                <label for="paswoord">paswoord: </label>
+                <input type="password" id="paswoord" placeholder="paswoord" />
+            </div>
+            <div>
+                <label for="herhaal paswoord">herhaal paswoord: </label>
+                <input type="password" id="herhaal paswoord" placeholder="herhaal paswoord" />
+            </div>
+            <div>
+                <input type="submit" style="width: 40%;font-size: x-large;" value="registreren" />
+            </div>
+        </form>
+    </font-family>
+
+</body>
+
+</html>
